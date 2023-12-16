@@ -6,7 +6,9 @@ module.exports = {
     title: `Portfolio`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-postcss", 
+  plugins: [
+            "gatsby-plugin-mdx",
+            "gatsby-plugin-postcss", 
             "gatsby-plugin-image",
             "gatsby-plugin-sharp",
             {
@@ -15,6 +17,7 @@ module.exports = {
                 name: "blog",
                 path: `${__dirname}/blog`
               }
-            }          
+            },
+                      
           ],
 };
