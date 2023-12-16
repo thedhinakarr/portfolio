@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'gatsby';
+import Layout from '../components/layout';
+
 
 export default function about() {
-  return (
-    <div className='text-xl text-green-600'>About page guys</div>
-  )
+    return (
+        <Layout pageHeading="About" pageTitle="About">
+            ABOUUUTTTT
+        </Layout>
+    )
 }
+
