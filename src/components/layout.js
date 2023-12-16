@@ -29,6 +29,7 @@ export default function Layout({ children, pageTitle, pageHeading }) {
                     <a className='hover:underline'><Link to="/">Home</Link></a>
                     <a className='hover:underline'><Link to="/about">About</Link></a>
                     <a className='hover:underline'><Link to="/contact">Contact</Link></a>
+                    <a className='hover:underline'><Link to="/blog">Blog</Link></a>
                 </div>
             </nav>
             <h1 className='text-green-300 text-6xl'>{pageHeading}</h1>
