@@ -15,13 +15,15 @@ export default function Layout({ children, pageTitle, pageHeading }) {
         }
     `);
 
+    console.log(data)
+
 
     return (
         <main className='text-white'>
             <title>
-                {pageTitle} | {data.site.siteMetadata.title}
+                {pageTitle} 
             </title>
-            <p>{data.site.siteMetadata.title}</p>
+            <p></p>
             <nav>
                 <div className="container mx-auto flex justify-between items-center">
                     <a className='hover:underline'><Link to="/">Home</Link></a>
