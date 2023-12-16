@@ -125,8 +125,8 @@ const links = [
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <h1 className="text-green-500">NEW SHIT BRUH!</h1>
+    <main className="bg-black">
+      <h1 className="text-green-500 font-semibold text-6xl">NEW SHIT BRUH!</h1>
     </main>
   )
 }
