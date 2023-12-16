@@ -5,17 +5,17 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 export default function Layout({ children, pageTitle, pageHeading }) {
 
-    const data = useStaticQuery(graphql`
-        query MyQuery {
-            site {
-            siteMetadata {
-                title
-            }
-            }
-        }
-    `);
+    // const data = useStaticQuery(graphql`
+    //     query MyQuery {
+    //         site {
+    //         siteMetadata {
+    //             title
+    //         }
+    //         }
+    //     }
+    // `);
 
-    console.log(data)
+    // console.log(data)
 
 
     return (
