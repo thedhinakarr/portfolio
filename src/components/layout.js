@@ -8,11 +8,11 @@ export default function Layout({children,pageTitle,pageHeading}) {
                 {pageTitle}
             </title>
             <nav>
-                <ul>
-                    <li className='hover:underline'><Link to="/">Home</Link></li>
-                    <li className='hover:underline'><Link to="/about">About</Link></li>
-                    <li className='hover:underline'><Link to="/contact">Contact</Link></li>
-                </ul>
+                <div className="container mx-auto flex justify-between items-center">
+                    <a className='hover:underline'><Link to="/">Home</Link></a>
+                    <a className='hover:underline'><Link to="/about">About</Link></a>
+                    <a className='hover:underline'><Link to="/contact">Contact</Link></a>
+                </div>
             </nav>
             <h1 className='text-green-300 text-6xl'>{pageHeading}</h1>
             {children}
