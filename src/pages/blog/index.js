@@ -24,15 +24,16 @@ export default function blog({ data }) {
                   {data.allMdx.nodes.map(node => {
                     console.log(node);
                     return (
+
                       <div className="flex w-full p-8 border-b border-gray-300">
                         <div className="flex flex-col flex-grow ml-4">
                           <div className="grid ">
-                            <article key={node.id}>
+                            <div key={node.id}>
                               <Link to={`/blog/${node.id}`}>
                                 <h2 className='text-4xl font-extrabold text-white p-1 hover:text-blue-500 hover:underline '>{node.frontmatter.title} </h2>
                               </Link>
                               <p className='text-[#FADEBD]'>{node.frontmatter.date}</p>
-                            </article>
+                            </div>
                           </div></div></div>
                     )
 

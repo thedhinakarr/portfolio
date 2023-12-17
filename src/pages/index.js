@@ -26,7 +26,6 @@ export default function index() {
               className='block hover:underline  hover:text-[#FADEBD]'
               href="https://github.com/thedhinakarr"
               target="_blank"
-              rel="noopener noreferrer"
             >{"->"} Github </a>
           </div>
         </nav>
