@@ -1,22 +1,8 @@
-import React, { Children } from 'react'
+import * as React from 'react'
 import { Link } from 'gatsby'
-import { useStaticQuery, graphql } from 'gatsby'
 
 
-export default function Layout({ children, pageTitle, pageHeading }) {
-
-    // const data = useStaticQuery(graphql`
-    //     query MyQuery {
-    //         site {
-    //         siteMetadata {
-    //             title
-    //         }
-    //         }
-    //     }
-    // `);
-
-    // console.log(data)
-
+export default function Layout({pageTitle, pageHeading,children}) {
 
     return (
         <main className='text-white'>
@@ -26,9 +12,9 @@ export default function Layout({ children, pageTitle, pageHeading }) {
             <p></p>
             <nav>
                 <div className="container mx-auto flex justify-between items-center">
-                    <a className='hover:underline'><Link to="/">Home</Link></a>
-                    <a className='hover:underline'><Link to="/about">About</Link></a>
-                    <a className='hover:underline'><Link to="/blog">Blog</Link></a>
+                    <div className='hover:underline'><Link to="/">Home</Link></div>
+                    <div className='hover:underline'><Link to="/about">About</Link></div>
+                    <div className='hover:underline'><Link to="/blog">Blog</Link></div>
                 </div>
             </nav>
             <h1 className='text-green-300 text-6xl'>{pageHeading}</h1>

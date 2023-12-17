@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../../components/layout";
-import { graphql } from "gatsby";
+import { graphql,Link } from "gatsby";
 import ReactMarkdown from 'react-markdown';
 
 
@@ -13,7 +13,6 @@ const BlogPostPage = (props) => {
         <Layout pageTitle="BLOGS">
             <h1>{props.data.mdx.frontmatter.title}</h1>
             <h1>{props.data.mdx.frontmatter.date}</h1>
-            {/* <p><h1>{props.data.mdx.body}</h1></p> */}
             <ReactMarkdown children={props.data.mdx.body}/>
         </Layout>
     );
@@ -31,6 +30,7 @@ query MyQuery($id: String) {
         title
       }
       body
+      gatsbyPath(filePath:"/blog/{mdx.id}")
     }
   }
 
