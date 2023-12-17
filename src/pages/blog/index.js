@@ -13,7 +13,7 @@ export default function blog({ data }) {
           console.log(node);
           return (
             <article key={node.id}>
-              <Link to={node.id}>
+              <Link to={`/blog/${node.id}`}>
                 <h2 className='text-xl text-white'>{node.frontmatter.title} </h2>
               </Link>
               <p2>{node.frontmatter.date}</p2>
