@@ -6,6 +6,17 @@ import Layout from '../components/layout';
 export default function resume() {
     return (
         <Layout pageHeading="Resume" pageTitle="Resume">
+            <div className="md:hidden text-center mt-5">
+
+                Pls use a bigger screen to view, until then
+                <a
+                    href="https://linktr.ee/thedhinakarr"
+                    className=" text-orange-300 px-4 py-2 rounded-full inline-block underline "
+                    target="_blank"
+                > click this
+
+                </a>
+            </div>
             <div className="hidden md:block relative h-screen" >
                 <div className='items-center justify-center font-mono text-lg'>
                     <meta charSet="UTF-8" />
@@ -417,18 +428,6 @@ export default function resume() {
                     </div>
                 </div>
             </div>
-            <div className="md:hidden text-center mt-5">
-
-                Pls use a bigger screen to view, until then
-                <a
-                    href="https://linktr.ee/thedhinakarr"
-                    className=" text-orange-300 px-4 py-2 rounded-full inline-block underline "
-                    target="_blank"
-                > click this
-
-                </a>
-            </div>
-
         </Layout>
 
     )
