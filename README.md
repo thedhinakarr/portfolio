@@ -2,4 +2,4 @@
 
 # My personal site/blog/portfolio
 
-Hi there, I'm Dinakar. I like learning new things and then writing about them.
+Hi there, I'm Dinakar. 
