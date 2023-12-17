@@ -8,23 +8,26 @@ export default function index() {
     //  <Layout pageHeading="Home" pageTitle="Home">
     //   ;klaj;dfjka;jdf;akjd;fljasdkjfak;j
     //  </Layout>
-    <div className="border-[#FADEBD] min-h-screen flex items-center justify-center font-semibold">
-      <div className="max-w-md">
-        <p className="text-lg text-justify pb-4">
+    <div className="border-[#FADEBD] min-h-screen flex flex-col sm:flex-row items-center justify-center font-semibold">
+      <div className="max-w-md p-4 sm:p-8">
+        <p className="text-lg sm:text-justify pb-4">
           {/* YO, I'm<text className="text-blue-500"> Dhinakarr,</text> */}
-          Hey! I'm<text className="text-blue-500 text-2xl"> Dhinakarr, </text>
-          I like computers. In the realm of algorithms and coding, I navigate through lines of logic to build robust solutions.<br/><br/>
+          Hey! I'm <span className="text-blue-500 text-2xl">Dhinakarr, </span>
+          I like computers. In the realm of algorithms and coding, I navigate through lines of logic to build robust solutions.<br /><br />
           Check out my blog which documents my journey of continuous learning and exploration as I delve into the intricacies of the digital world.<br /><br />
         </p>
-        <nav>
-          <div className="container mx-auto flex justify-between font-semibold text-2xl ">
-            <div className='hover:underline hover:text-[#FADEBD]'><Link to="/blog">Blog</Link></div>
-            <div className='hover:underline  hover:text-[#FADEBD]'><Link to="/about">Resumé</Link></div>
-            <div className='hover:underline  hover:text-[#FADEBD]'><Link to="https://github.com/thedhinakarr" onClick="_blank">Github</Link></div>
+        <nav className="text-center sm:text-left text-xl">
+          <div className='mb-4 sm:mb-0'>
+            <Link className='block hover:underline hover:text-[#FADEBD]' to="/blog"> {"->"} Blog</Link>
+          </div>
+          <div className='mb-4 sm:mb-0'>
+            <Link className='block hover:underline  hover:text-[#FADEBD]' to="/about">{"->"} Resumé</Link>
+          </div>
+          <div>
+            <a className='block hover:underline  hover:text-[#FADEBD]' href="https://github.com/thedhinakarr" target="_blank" rel="noopener noreferrer">{"->"} Github</a>
           </div>
         </nav>
       </div>
-
     </div>
 
   )
