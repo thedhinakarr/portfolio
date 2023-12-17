@@ -28,7 +28,6 @@ export default function Layout({ children, pageTitle, pageHeading }) {
                 <div className="container mx-auto flex justify-between items-center">
                     <a className='hover:underline'><Link to="/">Home</Link></a>
                     <a className='hover:underline'><Link to="/about">About</Link></a>
-                    <a className='hover:underline'><Link to="/contact">Contact</Link></a>
                     <a className='hover:underline'><Link to="/blog">Blog</Link></a>
                 </div>
             </nav>
