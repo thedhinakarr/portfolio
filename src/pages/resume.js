@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 export default function resume() {
     return (
         <Layout pageHeading="Resume" pageTitle="Resume">
-            <div className="md:hidden text-center mt-5">
+            <div className="md:hidden text-center mt-5 ">
 
                 Pls use a bigger screen to view, until then
                 <a
@@ -17,7 +17,7 @@ export default function resume() {
 
                 </a>
             </div>
-            <div className="hidden md:block relative h-screen" >
+            <div className="hidden md:block relative h-screen pl-14" >
                 <div className='items-center justify-center font-mono text-lg'>
                     <meta charSet="UTF-8" />
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -100,7 +100,7 @@ export default function resume() {
                         <main className="flex gap-x-10 mt-10">
                             <div className="w-2/6">
                                 {/* contact details */}
-                                <strong className="text-xl font-medium">Contact Details</strong>
+                                <strong className="text-xl font-bold">Contact Details</strong>
                                 <ul className="mt-2 mb-10">
 
                                     <li className="px-2 mt-1">
@@ -116,33 +116,34 @@ export default function resume() {
                                 </ul>
 
                                 {/* skills */}
-                                <strong className="text-xl font-medium">Skills</strong>
+                                <strong className="text-2xl font-bold">Skills</strong>
                                 <ul className="mt-2 mb-10">
-                                    <li className="px-2 mt-1">HTML</li>
-                                    <li className="px-2 mt-1">CSS</li>
+                                    <li className="px-2 mt-1">Java</li>
+                                    <li className="px-2 mt-1">C</li>
                                     <li className="px-2 mt-1">JavaScript</li>
-                                    <li className="px-2 mt-1">React</li>
+                                    <li className="px-2 mt-1">ReactJS</li>
                                     <li className="px-2 mt-1">Node.js</li>
+                                    <li className='px-2 mt-1'>MongoDB</li>
+                                    <li className='px-2 mt-1'>Express.js</li>
+                                    <li className='px-2 mt-1'>Node.js</li>
+                                    <li className='px-2 mt-1'>Rust</li>
+                                    <li className='px-2 mt-1'>Linux</li>
+                                    <li className='px-2 mt-1'>MySQL</li>
+                                    <li className='px-2 mt-1'>Tailwind CSS</li>
+                                    <li className='px-2 mt-1'>Git/Github</li>
+                                    <li className='px-2 mt-1'>GraphQL</li>
                                 </ul>
-                                <strong className="text-xl font-medium">Further Education</strong>
-                                <ul className="mt-2 mb-10">
-                                    <li className="px-2 mt-1">Like Lion Frontend School</li>
-                                    <li className="px-2 mt-1">Udemy</li>
-                                    <li className="px-2 mt-1">Freecodecamp</li>
-                                </ul>
-                                {/* what I'm learning these days */}
-                                <strong className="text-xl font-medium">Currently learning</strong>
-                                <ul className="mt-2 mb-10">
-                                    <li className="px-2 mt-1">About Web Accessibility</li>
-                                    <li className="px-2 mt-1">and User Experience</li>
-                                </ul>
-                                <strong className="text-xl font-medium">Interests &amp; Hobbies</strong>
+
+                                <strong className="text-xl font-bold">Interests &amp; Hobbies</strong>
                                 <ul className="mt-2">
-                                    <li className="px-2 mt-1">Sustainability</li>
-                                    <li className="px-2 mt-1">New technologies</li>
-                                    <li className="px-2 mt-1">Blogging on dev.to</li>
-                                    <li className="px-2 mt-1">Investment</li>
-                                    <li className="px-2 mt-1">Travel</li>
+                                    <li className="px-2 mt-1">Algorithms</li>
+                                    <li className="px-2 mt-1">System design</li>
+                                    <li className="px-2 mt-1">Art</li>
+                                    <li className="px-2 mt-1">Embedded Systems</li>
+                                    <li className="px-2 mt-1">Low-level computer Design</li>
+                                    <li className="px-2 mt-1">Graph Theory</li>
+                                    <li className="px-2 mt-1">Persuassive Technology</li>
+                                    <li className="px-2 mt-1">Linear Algebra</li>
                                 </ul>
                             </div>
                             {/* info */}
@@ -151,52 +152,41 @@ export default function resume() {
                                     {/* about me */}
                                     <h2 className="text-2xl pb-1 border-b font-semibold">About</h2>
                                     <p className="mt-4 text-xs">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
-                                        deserunt modi qui. Dolorum aliquid quasi velit cupiditate officia
-                                        magnam impedit, sapiente hic, eaque quaerat ullam fugiat
-                                        reprehenderit voluptates odit! Error. Tempore fuga iusto eveniet
-                                        omnis impedit repellat ab repellendus nesciunt similique. Iure
-                                        voluptates, enim nesciunt tempora amet earum, porro rem ad et sequi
-                                        corrupti neque quidem? Debitis quo quibusdam nemo. Nam doloremque
-                                        perferendis tempora asperiores, ullam praesentium et, voluptas
-                                        pariatur illo aliquid similique, fugiat repellendus ipsa
-                                        necessitatibus minus hic culpa quasi. Sed voluptate itaque
-                                        accusantium earum cupiditate ipsa neque magnam!
+                                        As a skilled MERN stack developer with a strong foundation in computer science,
+                                        I bring a unique blend of technical expertise and creative problem- solving
+                                        to every project. With a passion for innovation and a drive to deliver
+                                        top-quality results, I am committed to building cutting-edge solutions
+                                        that exceed expectations and drive business success.
                                     </p>
                                 </section>
                                 <section>
                                     {/* projects */}
-                                    <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">
+                                    <h2 className=" text-2xl mt-6 pb-1 border-b font-semibold">
                                         Projects
                                     </h2>
                                     <ul className="mt-1">
                                         <li className="py-2">
                                             <div className="flex justify-between my-1">
-                                                <strong>Rules of 10000 hours</strong>
+                                                <strong>SustainaGrid</strong>
                                                 <p className="flex">
                                                     <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        HTML
+                                                        04/2023 - 05/2023
                                                     </span>
-                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        CSS
-                                                    </span>
-                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        JS
-                                                    </span>
+
                                                 </p>
                                             </div>
                                             <ul className="flex mb-2">
-                                                <li>
+                                                {/* <li>
                                                     <a
                                                         href="#"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                                                     >
                                                         Live
                                                     </a>
-                                                </li>
+                                                </li> */}
                                                 <li>
                                                     <a
-                                                        href="#"
+                                                        href="https://github.com/thedhinakarr/sustainaGrid"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                                                     >
                                                         Code
@@ -204,43 +194,31 @@ export default function resume() {
                                                 </li>
                                             </ul>
                                             <p className="text-xs">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                Expedita delectus labore enim in minus quod vero dignissimos et,
-                                                ratione obcaecati quis maiores? Voluptatem, natus cupiditate
-                                                perferendis omnis ex hic incidunt! Earum dolore cupiditate sed
-                                                et maxime distinctio iure fugiat aspernatur at veniam laudantium
-                                                eveniet corporis dicta reiciendis quod consequatur, labore
-                                                perferendis dolorum velit quibusdam minus iste dolorem!
-                                                Officiis, obcaecati maxime
+                                                A platform orchestrating a network of renewable energy producers, mediators and consumers. Integrated Stripe and google maps APIs
                                             </p>
                                         </li>
                                         <li className="py-2">
                                             <div className="flex justify-between my-1">
-                                                <strong>Vending Machine</strong>
+                                                <strong>HowzLyf</strong>
                                                 <p className="flex">
                                                     <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        HTML
+                                                    03/2023 - 04/2023
                                                     </span>
-                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        CSS
-                                                    </span>
-                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        JS
-                                                    </span>
+                                                   
                                                 </p>
                                             </div>
                                             <ul className="flex mb-2">
-                                                <li>
+                                                {/* <li>
                                                     <a
                                                         href="#"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                                                     >
                                                         Live
                                                     </a>
-                                                </li>
+                                                </li> */}
                                                 <li>
                                                     <a
-                                                        href="#"
+                                                        href="https://github.com/thedhinakarr/HowzLyf_production"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                                                     >
                                                         Code
@@ -248,46 +226,30 @@ export default function resume() {
                                                 </li>
                                             </ul>
                                             <p className="text-xs">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                                                expedita illum optio porro suscipit rerum labore veritatis autem
-                                                eum totam veniam repudiandae repellendus perspiciatis eligendi
-                                                sequi maiores, cum ipsa ut! Dolorum aliquid quaerat, dolore
-                                                nemo, vero alias non porro quam totam impedit repellat voluptas,
-                                                nobis harum quae dolorem accusantium consequatur. Recusandae
-                                                cupiditate possimus natus consequuntur aliquid, molestias
-                                                provident saepe nobis.
+                                            A social network based on audio with features like voice recording, commenting on a post, webtoken authentication
                                             </p>
                                         </li>
                                         <li className="py-2">
                                             <div className="flex justify-between my-1">
-                                                <strong>Landing Page</strong>
+                                                <strong>CSP</strong>
                                                 <p className="flex">
                                                     <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        HTML
-                                                    </span>
-                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        CSS
-                                                    </span>
-                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        React
-                                                    </span>
-                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        Node.js
-                                                    </span>
+                                                     02/2023 - 02/2023
+                                                    </span>   
                                                 </p>
                                             </div>
                                             <ul className="flex mb-2">
-                                                <li>
+                                                {/* <li>
                                                     <a
                                                         href="#"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                                                     >
                                                         Live
                                                     </a>
-                                                </li>
+                                                </li> */}
                                                 <li>
                                                     <a
-                                                        href="#"
+                                                        href="https://github.com/thedhinakarr/CSP"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                                                     >
                                                         Code
@@ -295,46 +257,29 @@ export default function resume() {
                                                 </li>
                                             </ul>
                                             <p className="text-xs">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                Ducimus, odio autem non possimus adipisci, sed sequi culpa ipsa
-                                                necessitatibus repellat rerum. Obcaecati nobis modi voluptate
-                                                nam minus praesentium soluta voluptatibus! Minima temporibus
-                                                deserunt laborum, expedita ad molestiae perferendis? Ipsa aut,
-                                                necessitatibus expedita rem iure minus sit voluptates magni,
-                                                sequi eum architecto excepturi tempora dolorum soluta quam odit
-                                                amet nobis incidunt.
+                                            cool spotify player, a music player which uses artificial general intelligence. You can search for music based on a feeling, a situation, a language, etc.
                                             </p>
                                         </li>
                                         <li className="py-2">
                                             <div className="flex justify-between my-1">
-                                                <strong>Gamgyul Market</strong>
+                                                <strong>Tasky</strong>
                                                 <p className="flex">
                                                     <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        HTML
-                                                    </span>
-                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        CSS
-                                                    </span>
-                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        React
-                                                    </span>
-                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
-                                                        Node.js
-                                                    </span>
+                                                    01/2023 - 02/2023                                                 </span>
                                                 </p>
                                             </div>
                                             <ul className="flex mb-2">
-                                                <li>
+                                                {/* <li>
                                                     <a
                                                         href="#"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                                                     >
                                                         Live
                                                     </a>
-                                                </li>
+                                                </li> */}
                                                 <li>
                                                     <a
-                                                        href="#"
+                                                        href="https://github.com/thedhinakarr/TASKKYY"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                                                     >
                                                         Code
@@ -342,14 +287,67 @@ export default function resume() {
                                                 </li>
                                             </ul>
                                             <p className="text-xs">
-                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                                Ducimus suscipit soluta at doloremque ipsa unde, doloribus
-                                                beatae delectus odio dolorum consequatur libero esse ratione
-                                                nostrum nihil quaerat alias cupiditate assumenda? Nesciunt unde
-                                                aliquid quam quisquam excepturi deserunt ipsa doloremque culpa
-                                                itaque. Esse consectetur odit est laboriosam facilis! Accusamus
-                                                inventore vel magni sed aliquid! Aspernatur dolores, nam id
-                                                fugit ad aliquam.
+                                            A very generic task management application. With integrations like automatic email notifications on task addition.
+                                            </p>
+                                        </li>
+                                        <li className="py-2">
+                                            <div className="flex justify-between my-1">
+                                                <strong>TO-DO CLI</strong>
+                                                <p className="flex">
+                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
+                                                    01/2023 - 02/2023                                                 </span>
+                                                </p>
+                                            </div>
+                                            <ul className="flex mb-2">
+                                                {/* <li>
+                                                    <a
+                                                        href="#"
+                                                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                                                    >
+                                                        Live
+                                                    </a>
+                                                </li> */}
+                                                <li>
+                                                    <a
+                                                        href="https://github.com/thedhinakarr/TODO_CLI_PROJECT"
+                                                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                                                    >
+                                                        Code
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <p className="text-xs">
+                                            to do list command line interface application built purely in javascript, and manipulates a json file using the filesystem API
+                                            </p>
+                                        </li>
+                                        <li className="py-2">
+                                            <div className="flex justify-between my-1">
+                                                <strong>GitHub Search Engine</strong>
+                                                <p className="flex">
+                                                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">
+                                                    12/2022 - 12/2022                                              </span>
+                                                </p>
+                                            </div>
+                                            <ul className="flex mb-2">
+                                                {/* <li>
+                                                    <a
+                                                        href="#"
+                                                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                                                    >
+                                                        Live
+                                                    </a>
+                                                </li> */}
+                                                <li>
+                                                    <a
+                                                        href="https://github.com/thedhinakarr/GITHUB_STALKING"
+                                                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                                                    >
+                                                        Code
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <p className="text-xs">
+                                            A very generic task management application. With integrations like automatic email notifications on task addition.
                                             </p>
                                         </li>
                                     </ul>
@@ -362,44 +360,21 @@ export default function resume() {
                                     <ul className="mt-2">
                                         <li className="pt-2">
                                             <p className="flex justify-between text-sm">
-                                                <strong className="text-base">Company Name</strong>2019-2021
+                                                <strong className="text-base">BeamX Tech Labs</strong>07/23-09/23
                                             </p>
                                             <p className="flex justify-between text-base">
-                                                Job title<small>location</small>
+                                                Software-developer Intern<small>Hyderabad,Telangana</small>
                                             </p>
                                             <p className="text-justify text-xs">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                Dolorum, expedita exercitationem, cum quisquam laboriosam
-                                                voluptas aut libero officiis quae natus laborum explicabo,
-                                                labore nobis porro ad et soluta deleniti. Rerum? Voluptatibus id
-                                                officiis adipisci eligendi provident minima sed. Ullam aliquid,
-                                                fuga nisi modi amet quasi, quod veniam eos sit culpa distinctio
-                                                rem a tempora ad autem soluta rerum, doloremque quas?
+                                                Worked on re-factoring a legacy e-commerce system from php to react.
                                             </p>
                                         </li>
-                                        <li className="pt-2">
-                                            <p className="flex justify-between text-sm">
-                                                <strong className="text-base">Company Name</strong>2014-2019
-                                            </p>
-                                            <p className="flex justify-between text-base">
-                                                Job title<small>location</small>
-                                            </p>
-                                            <p className="text-justify text-xs">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                Delectus nemo fugiat neque tempore consectetur nihil alias ullam
-                                                esse corporis fugit deserunt maxime, numquam eos repellendus,
-                                                deleniti quae at fuga repudiandae! Perspiciatis odit nobis sunt!
-                                                Natus ea reiciendis enim! Itaque possimus eaque perspiciatis
-                                                architecto reiciendis laboriosam voluptas corporis unde ducimus
-                                                quis aliquid, distinctio dolorum quo ullam a at, fugit veniam
-                                                optio.
-                                            </p>
-                                        </li>
+                                       
                                     </ul>
                                 </section>
                                 <section>
                                     {/* education */}
-                                    <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">
+                                    {/* <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">
                                         Education
                                     </h2>
                                     <ul className="mt-2">
@@ -421,7 +396,7 @@ export default function resume() {
                                                 Fashion Design<small>GPA 3.8</small>
                                             </p>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </section>
                             </div>
                         </main>
