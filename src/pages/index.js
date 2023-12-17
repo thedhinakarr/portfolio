@@ -24,7 +24,12 @@ export default function index() {
             <Link className='block hover:underline  hover:text-[#FADEBD]' to="/about">{"->"} Resumé</Link>
           </div>
           <div>
-            <a className='block hover:underline  hover:text-[#FADEBD]' href="https://github.com/thedhinakarr" target="_blank" rel="noopener noreferrer">{"->"} Github</a>
+            <a
+              className='block hover:underline  hover:text-[#FADEBD]'
+              href="https://github.com/thedhinakarr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >{"->"} Github </a>
           </div>
         </nav>
       </div>
