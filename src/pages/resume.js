@@ -418,12 +418,13 @@ export default function resume() {
                 </div>
             </div>
             <div className="md:hidden text-center mt-5">
+
+                Pls use a bigger screen to view, until then
                 <a
-                    href="https://linktr.ee/thedhinakarr" 
-                    className=" text-[#FADEBD] px-4 py-2 rounded-full inline-block hover:text-blue-500"
+                    href="https://linktr.ee/thedhinakarr"
+                    className=" text-[#f5a953] px-4 py-2 rounded-full inline-block "
                     target="_blank"
-                >
-                    Pls use a bigger screen to view, until then click this.
+                > click this.
 
                 </a>
             </div>
