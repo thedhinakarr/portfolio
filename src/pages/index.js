@@ -5,10 +5,8 @@ import { Link } from "gatsby"
 
 export default function index() {
   return (
-    //  <Layout pageHeading="Home" pageTitle="Home">
-    //   ;klaj;dfjka;jdf;akjd;fljasdkjfak;j
-    //  </Layout>
-    <div className="border-[#FADEBD] min-h-screen flex flex-col sm:flex-row items-center justify-center font-semibold">
+
+    <div className="border-[#FADEBD] min-h-screen flex flex-col sm:flex-row items-center justify-center font-mono text-lg">
       <div className="max-w-md p-4 sm:p-8">
         <p className="text-lg sm:text-justify pb-4">
           {/* YO, I'm<text className="text-blue-500"> Dhinakarr,</text> */}
@@ -21,7 +19,7 @@ export default function index() {
             <Link className='block hover:underline hover:text-[#FADEBD]' to="/blog"> {"->"} Blog</Link>
           </div>
           <div className='mb-4 sm:mb-0'>
-            <Link className='block hover:underline  hover:text-[#FADEBD]' to="/about">{"->"} Resumé</Link>
+            <Link className='block hover:underline  hover:text-[#FADEBD]' to="/resume">{"->"} Resumé</Link>
           </div>
           <div>
             <a
