@@ -422,7 +422,7 @@ export default function resume() {
                 Pls use a bigger screen to view, until then
                 <a
                     href="https://linktr.ee/thedhinakarr"
-                    className=" text-[#f5a953] px-4 py-2 rounded-full inline-block "
+                    className=" text-orange-300 px-4 py-2 rounded-full inline-block underline "
                     target="_blank"
                 > click this.
 
