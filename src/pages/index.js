@@ -28,6 +28,13 @@ export default function index() {
               target="_blank"
             >{"->"} Github </a>
           </div>
+          <div>
+            <a
+              className='block hover:underline  hover:text-[#FADEBD]'
+              href="https://open.spotify.com/show/4gNCCEuk0JDWuXJoBESWjA"
+              target="_blank"
+            >{"->"} Podcast </a>
+          </div>
         </nav>
       </div>
     </div>
