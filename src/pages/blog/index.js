@@ -4,8 +4,6 @@ import { graphql, Link } from 'gatsby'
 
 export default function blog({ data }) {
 
-  console.log(data);
-
   return (
     <Layout pageHeading="blog" pageTitle="blog">
 
@@ -22,7 +20,7 @@ export default function blog({ data }) {
 
                 <li>
                   {data.allMdx.nodes.map(node => {
-                    console.log(node);
+                    
                     return (
 
                       <div className="flex w-full p-8 border-b border-gray-300">
@@ -30,9 +28,10 @@ export default function blog({ data }) {
                           <div className="grid ">
                             <div key={node.id}>
                               <Link to={`/blog/${node.id}`}>
-                                <h2 className='font-extrabold text-white p-1 text-xl hover:text-blue-500 hover:underline '>{node.frontmatter.title} </h2>
+                                <h2 className='font-extrabold text-white p-1 text-xl hover:text-blue-500 hover:underline '>{node.frontmatter.title}</h2>
                               </Link>
                               <p className='text-[#FADEBD]'>{node.frontmatter.date}</p>
+                              <p className='text-[#FADEBD]'>{node.frontmatter.slug}</p>
                             </div>
                           </div></div></div>
                     )

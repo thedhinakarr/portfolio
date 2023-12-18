@@ -9,7 +9,6 @@ export default function index() {
     <div className="border-[#FADEBD] min-h-screen flex flex-col sm:flex-row items-center justify-center font-mono text-lg">
       <div className="max-w-md p-4 sm:p-8">
         <p className="text-lg sm:text-justify pb-4">
-          {/* YO, I'm<text className="text-blue-500"> Dhinakarr,</text> */}
           Hey! I'm <span className="text-blue-500 text-2xl">Dhinakarr, </span>
           I like computers. In the realm of algorithms and coding, I navigate through lines of logic to build robust solutions.<br /><br />
           Check out my blog which documents my journey of continuous learning and exploration as I delve into the intricacies of the digital world.<br /><br />

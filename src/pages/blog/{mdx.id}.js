@@ -12,16 +12,23 @@ const BlogPostPage = (props) => {
   //console.log(props.data);
 
   const image = getImage(props.data.mdx.frontmatter.hero_image);
-  console.log(image);
+
   return (
     <Layout pageTitle="BLOGS">
-      <h1 className="text-4xl border-white border-b items-center">{props.data.mdx.frontmatter.title}</h1>
-      <h1 className="text-[#FADEBD] pb-6">{props.data.mdx.frontmatter.date}</h1>
+      <h1 className="pl-2 text-4xl border-white border-b items-center">{props.data.mdx.frontmatter.title}</h1>
+      <h1 className="pl-2 text-[#FADEBD] pb-6">{props.data.mdx.frontmatter.date}</h1>
 
-      <GatsbyImage className="w-1/3 h-1/3" image={image} alt={props.data.mdx.frontmatter.hero_alt} />
-      <p>
+      <div className="flex justify-center items-center">
+        <GatsbyImage
+          className="object-center border mb-10 border-blue-500"
+          image={image}
+          alt={props.data.mdx.frontmatter.hero_alt}
+        />
+      </div>
+
+      <p className="m-3 p-2 ">
         <ReactMarkdown children={props.data.mdx.body} />
-        
+
       </p>
 
 
