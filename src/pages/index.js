@@ -23,14 +23,14 @@ export default function index() {
           </div>
           <div>
             <a
-              className='block hover:underline  hover:text-[#FADEBD]'
+              className=' mb-4 sm:mb-0 block  hover:underline  hover:text-[#FADEBD]'
               href="https://github.com/thedhinakarr"
               target="_blank"
             >{"->"} Github </a>
           </div>
           <div>
             <a
-              className='block hover:underline  hover:text-[#FADEBD]'
+              className='mb-4 sm:mb-0 block hover:underline  hover:text-[#FADEBD]'
               href="https://open.spotify.com/show/4gNCCEuk0JDWuXJoBESWjA"
               target="_blank"
             >{"->"} Podcast </a>
