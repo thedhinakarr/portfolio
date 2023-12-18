@@ -188,6 +188,7 @@ export default function resume() {
                                                     <a
                                                         href="https://github.com/thedhinakarr/sustainaGrid"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                                                        target='_blank'
                                                     >
                                                         Code
                                                     </a>
@@ -220,6 +221,7 @@ export default function resume() {
                                                     <a
                                                         href="https://github.com/thedhinakarr/HowzLyf_production"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                                                        target='_blank'
                                                     >
                                                         Code
                                                     </a>
@@ -251,6 +253,7 @@ export default function resume() {
                                                     <a
                                                         href="https://github.com/thedhinakarr/CSP"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                                                        target='_blank'
                                                     >
                                                         Code
                                                     </a>
@@ -281,6 +284,7 @@ export default function resume() {
                                                     <a
                                                         href="https://github.com/thedhinakarr/TASKKYY"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                                                        target='_blank'
                                                     >
                                                         Code
                                                     </a>
@@ -311,6 +315,7 @@ export default function resume() {
                                                     <a
                                                         href="https://github.com/thedhinakarr/TODO_CLI_PROJECT"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                                                        target='_blank'
                                                     >
                                                         Code
                                                     </a>
@@ -341,6 +346,7 @@ export default function resume() {
                                                     <a
                                                         href="https://github.com/thedhinakarr/GITHUB_STALKING"
                                                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                                                        target='_blank'
                                                     >
                                                         Code
                                                     </a>
