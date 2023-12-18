@@ -14,7 +14,7 @@ export default function index() {
           I like computers. In the realm of algorithms and coding, I navigate through lines of logic to build robust solutions.<br /><br />
           Check out my blog which documents my journey of continuous learning and exploration as I delve into the intricacies of the digital world.<br /><br />
         </p>
-        <nav className="text-center sm:text-left text-xl">
+        <nav className="text-left text-xl">
           <div className='mb-4 sm:mb-0'>
             <Link className='block hover:underline hover:text-[#FADEBD]' to="/blog"> {"->"} Blog</Link>
           </div>
