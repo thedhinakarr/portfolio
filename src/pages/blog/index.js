@@ -8,7 +8,7 @@ export default function blog({ data }) {
 
   return (
     <Layout pageHeading="blog" pageTitle="blog">
-      
+
 
       <div>
 
@@ -30,7 +30,7 @@ export default function blog({ data }) {
                           <div className="grid ">
                             <div key={node.id}>
                               <Link to={`/blog/${node.id}`}>
-                                <h2 className='text-4xl font-extrabold text-white p-1 hover:text-blue-500 hover:underline '>{node.frontmatter.title} </h2>
+                                <h2 className='font-extrabold text-white p-1 text-xl hover:text-blue-500 hover:underline '>{node.frontmatter.title} </h2>
                               </Link>
                               <p className='text-[#FADEBD]'>{node.frontmatter.date}</p>
                             </div>
