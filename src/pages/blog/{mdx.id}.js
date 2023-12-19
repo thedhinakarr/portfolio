@@ -4,12 +4,9 @@ import { graphql, Link } from "gatsby";
 import ReactMarkdown from 'react-markdown';
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-
-
-//Need to figure out an alternative for mdx rendering.
-
 const BlogPostPage = (props) => {
-  //console.log(props.data);
+
+  console.log(props.data.mdx.body);
 
   const image = getImage(props.data.mdx.frontmatter.hero_image);
 
@@ -27,7 +24,8 @@ const BlogPostPage = (props) => {
       </div>
 
       <p className="mb-20 mx-20 p-3 sm:text-justify ">
-        <ReactMarkdown children={props.data.mdx.body} />
+       <ReactMarkdown children={props.data.mdx.body} />
+
       </p>
 
 
