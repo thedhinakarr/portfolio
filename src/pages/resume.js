@@ -152,7 +152,7 @@ export default function resume() {
                                     {/* about me */}
                                     <h2 className="text-2xl pb-1 border-b font-semibold">About</h2>
                                     <p className="mt-4 text-xs">
-                                        As a skilled MERN stack developer with a strong foundation in computer science,
+                                        As a skilled Software developer with a strong foundation in computer science,
                                         I bring a unique blend of technical expertise and creative problem- solving
                                         to every project. With a passion for innovation and a drive to deliver
                                         top-quality results, I am committed to building cutting-edge solutions
