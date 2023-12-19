@@ -23,7 +23,7 @@ const BlogPostPage = (props) => {
         />
       </div>
 
-      <p className="sm:text-justify mb-20 mx-20 p-3  ">
+      <p className=" mx-20 mb-20 p-3 sm:text-justify ">
        <ReactMarkdown children={props.data.mdx.body} />
 
       </p>
