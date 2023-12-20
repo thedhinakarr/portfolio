@@ -15,9 +15,9 @@ const BlogPostPage = (props) => {
       <h1 className="pl-2 text-4xl border-white border-b items-center">{props.data.mdx.frontmatter.title}</h1>
       <h1 className="pl-2 text-[#FADEBD] pb-6">{props.data.mdx.frontmatter.date}</h1>
 
-      <div className="flex justify-center items-center">
+      <div className="flex p-2 justify-center items-center">
         <GatsbyImage
-          className="object-center border mb-10 border-blue-500"
+          className="object-center p-1 border m-10 border-blue-500"
           image={image}
           alt={props.data.mdx.frontmatter.hero_alt}
         />
