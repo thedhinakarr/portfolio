@@ -19,6 +19,18 @@ module.exports = {
               }
             },
             "gatsby-plugin-mdx",
-            "gatsby-transformer-sharp"
+            "gatsby-transformer-sharp",
+            {
+              resolve: `gatsby-plugin-manifest`,
+              options: {
+                name: `Dhinakar's`,
+                short_name: `Portfolio`,
+                start_url: `/`,
+                background_color: `#ffffff`,
+                theme_color: `#663399`,
+                display: `minimal-ui`,
+                icon: `src/images/icon.png`, // Specify the path to your favicon
+              },
+            },
           ],
 };
