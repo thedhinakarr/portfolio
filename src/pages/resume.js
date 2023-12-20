@@ -119,7 +119,6 @@ export default function resume() {
                                 <strong className="text-2xl font-bold">Skills</strong>
                                 <ul className="mt-2 mb-10">
                                     <li className="px-2 mt-1">Java</li>
-                                    <li className="px-2 mt-1">C</li>
                                     <li className="px-2 mt-1">JavaScript</li>
                                     <li className="px-2 mt-1">ReactJS</li>
                                     <li className="px-2 mt-1">Node.js</li>
@@ -128,7 +127,6 @@ export default function resume() {
                                     <li className='px-2 mt-1'>Node.js</li>
                                     <li className='px-2 mt-1'>Rust</li>
                                     <li className='px-2 mt-1'>Linux</li>
-                                    <li className='px-2 mt-1'>MySQL</li>
                                     <li className='px-2 mt-1'>Tailwind CSS</li>
                                     <li className='px-2 mt-1'>Git/Github</li>
                                     <li className='px-2 mt-1'>GraphQL</li>
@@ -139,7 +137,6 @@ export default function resume() {
                                     <li className="px-2 mt-1">Algorithms</li>
                                     <li className="px-2 mt-1">System design</li>
                                     <li className="px-2 mt-1">Art</li>
-                                    <li className="px-2 mt-1">Embedded Systems</li>
                                     <li className="px-2 mt-1">Low-level computer Design</li>
                                     <li className="px-2 mt-1">Graph Theory</li>
                                     <li className="px-2 mt-1">Persuassive Technology</li>
