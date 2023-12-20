@@ -15,7 +15,7 @@ const ShareButton = ({ url }) => {
 
     return (
         <div>
-            <button className='mr-10 hover:text-[#FADEBD] md:mr-2' onClick={handleCopyToClipboard}>
+            <button className='sm:mr-10 md:mr-2 hover:text-[#FADEBD]' onClick={handleCopyToClipboard}>
                 <IoShareOutline size={32} />
             </button>
         </div>
