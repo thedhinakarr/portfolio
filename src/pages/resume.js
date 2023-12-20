@@ -118,13 +118,11 @@ export default function resume() {
                                 {/* skills */}
                                 <strong className="text-2xl font-bold">Skills</strong>
                                 <ul className="mt-2 mb-10">
-                                    <li className="px-2 mt-1">Java</li>
                                     <li className="px-2 mt-1">JavaScript</li>
                                     <li className="px-2 mt-1">ReactJS</li>
                                     <li className="px-2 mt-1">Node.js</li>
                                     <li className='px-2 mt-1'>MongoDB</li>
                                     <li className='px-2 mt-1'>Express.js</li>
-                                    <li className='px-2 mt-1'>Node.js</li>
                                     <li className='px-2 mt-1'>Rust</li>
                                     <li className='px-2 mt-1'>Linux</li>
                                     <li className='px-2 mt-1'>Tailwind CSS</li>
