@@ -3,6 +3,7 @@ import Layout from "../../components/layout";
 import { graphql, Link } from "gatsby";
 import ReactMarkdown from 'react-markdown';
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import ShareButton from "../../components/shareButton";
 
 const BlogPostPage = (props) => {
 
@@ -12,8 +13,13 @@ const BlogPostPage = (props) => {
 
   return (
     <Layout pageTitle="BLOGS">
-      <h1 className="pl-2 text-4xl border-white border-b items-center">{props.data.mdx.frontmatter.title}</h1>
+      <div className="flex items-center justify-between">
+        <h1 className="pl-2 text-4xl border-white border-b items-center">{props.data.mdx.frontmatter.title}</h1>
+        <ShareButton url={props.data.mdx.id} />
+      </div>
+
       <h1 className="pl-2 text-[#FADEBD] pb-6">{props.data.mdx.frontmatter.date}</h1>
+
 
       <div className="flex p-2 justify-center items-center">
         <GatsbyImage
@@ -24,7 +30,7 @@ const BlogPostPage = (props) => {
       </div>
 
       <p className="sm:text-left md:mx-20 ">
-       <ReactMarkdown children={props.data.mdx.body} />
+        <ReactMarkdown children={props.data.mdx.body} />
       </p>
 
 
