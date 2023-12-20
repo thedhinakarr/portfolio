@@ -26,8 +26,8 @@ module.exports = {
                 name: `Dhinakar's`,
                 short_name: `Portfolio`,
                 start_url: `/`,
-                background_color: `#ffffff`,
-                theme_color: `#663399`,
+                background_color: `#000000`,
+                theme_color: `#000000`,
                 display: `minimal-ui`,
                 icon: `src/images/icon.png`, // Specify the path to your favicon
               },
