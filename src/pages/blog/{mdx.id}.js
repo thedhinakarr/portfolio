@@ -14,7 +14,7 @@ const BlogPostPage = (props) => {
   return (
     <Layout pageTitle="BLOGS">
       <div className="flex items-center justify-between">
-        <h1 className="pl-2 text-4xl border-white border-b items-center">{props.data.mdx.frontmatter.title}</h1>
+        <h1 className="pl-2 text-4xl font-mono border-white border-b items-center">{props.data.mdx.frontmatter.title}</h1>
         <ShareButton url={props.data.mdx.id} />
       </div>
 
@@ -23,7 +23,7 @@ const BlogPostPage = (props) => {
 
       <div className="flex p-2 justify-center items-center">
         <GatsbyImage
-          className="object-center p-1 border m-10 border-blue-500"
+          className="object-center p-1 border md:m-10 border-blue-500"
           image={image}
           alt={props.data.mdx.frontmatter.hero_alt}
         />
