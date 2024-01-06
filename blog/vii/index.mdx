@@ -1,0 +1,51 @@
+---
+title: Links in Linux
+date: "2024-01-06"
+slug: "00000110"
+hero_image: "./download.png"
+hero_image_alt: "engineering illustration"
+hero_image_credit_text: "Dhinakarr"
+hero_image_credit_link: "https://dhinakarr.in"
+---
+
+Introduction:
+
+One powerful and often underappreciated feature is the use of links. Links are pointers or references to files and directories, enabling users to create efficient and organized structures within the file system. In this blog, we'll explore the types of links in Linux, their characteristics, and how they can be employed to streamline file management.
+
+Types of Links:
+
+Linux supports two primary types of links: hard links and symbolic links.
+
+1. Hard Links:
+
+Hard links are essentially multiple directory entries (or file names) pointing to the same inode – the data structure that stores information about a file or directory. All hard links associated with a single inode are, in essence, the same file. Deleting one hard link does not affect the others, as they all point to the same underlying data.
+
+Creating a hard link is as simple as using the `ln` command:
+
+```bash
+$ ln source_file hard_link
+```
+
+It's important to note that hard links can only be created for files and cannot span different file systems.
+
+2. Symbolic Links (Soft Links):
+
+Symbolic links, also known as soft links or symlinks, are pointers to the path of another file or directory. Unlike hard links, symbolic links are separate entities with distinct inodes, and they can span different file systems.
+
+Creating a symbolic link is done using the `-s` option with the `ln` command:
+
+```bash
+$ ln -s target_file symbolic_link
+```
+
+Symbolic links provide more flexibility but are dependent on the existence of the target file. If the target file is moved or deleted, the symbolic link becomes broken.
+
+Use Cases for Hard Links:
+
+1. **Data Backup:**
+   Hard links are excellent for creating snapshots or backups of important data. Since they share the same inode, modifications to one hard link are reflected in all others.
+
+2. **Version Control:**
+   Developers can use hard links to maintain multiple versions of a file without duplicating the actual data. This can be useful for source code management or other version control scenarios.
+
+Until next time, **Dhinakarr**

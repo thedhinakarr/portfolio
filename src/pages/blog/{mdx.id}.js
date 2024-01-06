@@ -4,6 +4,7 @@ import { graphql, Link } from "gatsby";
 import ReactMarkdown from 'react-markdown';
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import ShareButton from "../../components/shareButton";
+import Markdown from 'react-markdown'
 
 const BlogPostPage = (props) => {
 
@@ -29,8 +30,8 @@ const BlogPostPage = (props) => {
         />
       </div>
 
-      <p className="sm:text-left md:mx-20 ">
-        <ReactMarkdown children={props.data.mdx.body} />
+      <p className="sm:text-left md:m-20 overflow-x-hidden  whitespace-normal">
+        <Markdown>{props.data.mdx.body}</Markdown>
       </p>
 
 
