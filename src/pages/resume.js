@@ -255,7 +255,7 @@ export default function resume() {
                                                 </li>
                                             </ul>
                                             <p className="text-xs">
-                                            cool spotify player, a music player which uses artificial general intelligence. You can search for music based on a feeling, a situation, a language, etc.
+                                            cool spotify player, a music player which uses artificial intelligence. You can search for music based on a feeling, a situation, a language, etc.
                                             </p>
                                         </li>
                                         <li className="py-2">
