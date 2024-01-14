@@ -1,0 +1,51 @@
+---
+title: "Chmod and Binary."
+date: "2024-01-13"
+slug: "00001001"
+hero_image: "./chmod.png"
+hero_image_alt: "ip"
+hero_image_credit_text: "Dhinakarr"
+hero_image_credit_link: "https://dhinakarr.in"
+---
+
+
+In the Linux operating system, file and directory permissions are essential for maintaining security and control over access to resources. The chmod command, short for "change mode," is a powerful tool that allows users to manipulate these permissions. In this blog, we'll delve into the intricacies of chmod, exploring the concept of permissions, the symbolic representation of modes, and the binary magic that lies beneath.
+
+Understanding Permissions:
+In Linux, each file and directory has associated permissions that define who can read, write, and execute them. There are three primary permission categories:
+
+Read (r): If a user has read permission, they can view the contents of a file or list the files within a directory.
+
+Write (w): Write permission allows a user to modify the contents of a file or create, delete, and rename files within a directory.
+
+Execute (x): Execute permission is necessary for running a program or script, or for accessing the contents of a directory.
+
+The chmod Command:
+The chmod command in Linux is used to change the permissions of a file or directory. It can be executed in two main ways: symbolic mode and numeric mode.
+
+Numeric Mode and Binary Representation:
+Behind the scenes, Linux uses a binary representation to manage permissions. Each permission category (read, write, execute) is represented by a 3-bit binary number. The numeric mode allows you to set permissions using a three-digit octal (base-8) number.
+
+Read (r) = 4
+Write (w) = 2
+Execute (x) = 1
+To calculate the numeric mode, add the values of the desired permissions. For example, read and write would be 
+4
++
+2
+=
+6
+4+2=6. Execute only would be 1.
+
+Understanding Binary Representation:
+To understand the binary representation of permissions, consider a permission set like rw-r--r--. Here, the user has read and write permissions, while the group and others have only read permissions. Translating this to binary, we get 110100100, where each digit represents a permission.
+
+Applying Numeric Mode with chmod:
+To apply permissions using numeric mode, the chmod command would look like this:
+
+```
+chmod 644 file.txt
+```
+Here, 6 corresponds to 110 in binary, indicating read and write for the user, and read-only for the group and others.
+
+Until next time, **Dhinakarr**
